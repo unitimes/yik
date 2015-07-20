@@ -1,0 +1,30 @@
+{
+  "name": "yik",
+  "version": "0.0.1",
+  "homepage": "https://github.com/unitimes/yik.git",
+  "authors": [
+    "unitimes <unitimes@naver.com>"
+  ],
+  "description": "yik kor ver.",
+  "main": "view/index.js",
+  "moduleType": [
+    "amd",
+    "es6",
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "view/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.3",
+    "bootstrap": "~3.3.5",
+    "angular-ui-router": "~0.2.15",
+    "angular-resource": "~1.4.3"
+  }
+}

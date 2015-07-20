@@ -1,0 +1,28 @@
+{
+  "name": "yik",
+  "private": true,
+  "version": "0.0.1",
+  "description": "yik kor ver.",
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "bower install",
+    "start": "npm index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unitimes/yik.git"
+  },
+  "author": "cob",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/unitimes/yik/issues"
+  },
+  "homepage": "https://github.com/unitimes/yik#readme",
+  "dependencies": {
+    "body-parser": "^1.13.2",
+    "connect-mongo": "^0.8.2",
+    "express": "^4.13.1",
+    "express-session": "^1.11.3",
+    "mongoose": "^4.0.7"
+  }
+}
